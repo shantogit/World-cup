@@ -58,7 +58,7 @@ body {
 
 
 
-.Banner-image img {
+.banner-image img {
     position: absolute;
     width: 581px;
     height: 619.64px;
@@ -213,25 +213,4 @@ main {
 #blogs:hover {
     background-color: #FFFFFF;
     color: #161616;
-}
-
-@media only screen and (max-width:688px) {
-    .side-bar {
-
-        display: none;
-    }
-
-    .main-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .background-color {
-        width: 100%;
-    }
-
-    .footer-details {
-        display: block;
-    }
-
-
 }
