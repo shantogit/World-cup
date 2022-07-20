@@ -1,0 +1,223 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    background-color: #161616;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    margin-top: 50px;
+    margin-left: 149.5px;
+
+
+}
+
+.heading h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    position: relative;
+    width: 531px;
+    height: 242.6px;
+    left: 106px;
+    top: 60.2px;
+    font-weight: 700;
+    line-height: 80px;
+
+}
+
+.heading p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400px;
+    margin-left: 106px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+
+
+
+}
+
+.heading a {
+    color: #FFFFFF;
+    background-color: #DD0000;
+    text-decoration: none;
+    padding: 16px 35px;
+    border-radius: 5PX;
+    margin-left: 106px;
+    width: 187px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+
+.banner-image img {
+    position: absolute;
+    width: 581px;
+    height: 619.64px;
+    left: 720px;
+    top: 75.36px;
+}
+
+.side-bar {
+    background-color: #161616;
+    height: 312px;
+    width: 312px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 149.5px;
+    padding-top: 10px;
+    margin-top: 100px;
+
+
+}
+
+
+
+aside a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+    margin-right: ;
+    padding: 22px 15px;
+    color: #161616;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 149.5;
+
+
+}
+
+aside a:hover {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.main-container .matchs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.flags {
+    display: flex;
+}
+
+
+.match {
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+
+}
+
+.match .flags {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+
+.match .teams {
+    text-align: center;
+}
+
+.flags img {
+    width: 93.04px;
+    height: 54.42px;
+}
+
+.teams p {
+    color: #4D4D4D;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    color: #4D4D4D;
+}
+
+main {
+    display: flex;
+
+}
+
+.background-color {
+    background-color: #161616;
+    height: 444px;
+    width: 1600px;
+}
+
+
+
+
+.Goal h3 {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 36px;
+}
+
+.Goal hr {
+
+    width: 1280px;
+    color: gainsboro;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #B9B9B9;
+    padding: 0px;
+    margin-left: 50px;
+
+
+
+}
+
+.social-media {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 100px;
+
+    text-align: center;
+
+
+}
+
+#blogs {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+#blogs:hover {
+    background-color: #FFFFFF;
+    color: #161616;
+}
